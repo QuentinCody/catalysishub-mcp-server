@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "intuit": {
+      "command": "python3",
+      "args": ["intuit_mcp_server.py"],
+      "env": {
+        "INTUIT_CLIENT_ID": "${INTUIT_CLIENT_ID}",
+        "INTUIT_CLIENT_SECRET": "${INTUIT_CLIENT_SECRET}",
+        "INTUIT_REFRESH_TOKEN": "${INTUIT_REFRESH_TOKEN}",
+        "INTUIT_ENVIRONMENT": "${INTUIT_ENVIRONMENT:-sandbox}"
+      },
+      "description": "MCP server for interacting with Intuit's QuickBooks API"
+    }
+  }
+} 
