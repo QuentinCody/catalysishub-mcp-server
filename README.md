@@ -167,10 +167,6 @@ Error responses include detailed diagnostics:
 - `JSON Decode Error`: Check query syntax using Catalysis Hub's [GraphQL Playground](https://www.catalysis-hub.org/api/graphql)
 - `Timeout Errors`: Add `timeout` parameter to complex queries
 
-## License
-
-MIT License - See [LICENSE](LICENSE) for details
-
 ## Acknowledgements
 
 This project builds on the Model Context Protocol (MCP) framework and is designed to interface with the Catalysis Hub database, a comprehensive resource for catalysis research data.
